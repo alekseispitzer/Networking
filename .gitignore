@@ -1,0 +1,22 @@
+#####
+# OS X temp files that should never be committed
+.DS_Store
+*.swp
+*.lock
+profile
+
+#####
+# XCode exclusions
+xcuserdata/
+AppetizeSuite.xcodeproj/project.xcworkspace/xcshareddata
+AppetizeSuite.xcodeproj/project.xcworkspace/xcshareddata/AppetizeSuite.xccheckout
+
+#####
+# Carthage
+# Currently, we are not tracking the Carthage directory because frameworks are being built before compilation
+Carthage/Checkouts
+Carthage/Build
+# The bcsymbolmap carthage files are only used for submission to AppStore, and are deleted with each build
+# They should not be saved.
+*.bcsymbolmap
+Cartfile.resolved
